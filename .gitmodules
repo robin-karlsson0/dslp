@@ -1,0 +1,3 @@
+[submodule "predictive-world-models"]
+	path = predictive-world-models
+	url = https://github.com/robin-karlsson0/predictive-world-models.git
