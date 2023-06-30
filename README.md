@@ -117,7 +117,21 @@ sh run_train_exp_04_dslp_alpha_ib.sh
 
 # Experimental results
 
-All quantitative results incl. visualizations for experiments are uploaded.
+Summary of results and baselines
+
+| Model                | NLL | IoU |
+|---------------------------|------------|--|
+| [STSU](https://arxiv.org/abs/2110.01997) (supervised) | -   | 0.389 |
+| [LaneGraphNet](https://arxiv.org/abs/2105.00195) (supervised) | -   | 0.420 |
+| [DSLA]() | 15.095   | 0.427 |
+| DSLP const alpha | 12.663   | 0.418 |
+| DSLP mean alpha_ib | 12.482   | 0.410 |
+| *DSLP alpha_ib | 12.325   | 0.442 |
+| DSLP full obs. | **12.205**   | **0.454** |
+
+_'*' Our main result for partially observable worlds_
+
+All experiment quantitative result logs and output visualizations are uploaded.
 
 [Data directory](https://drive.google.com/drive/folders/1ylLDDdaxGEOZOJ9b6YXumRtXbOGTncVi?usp=sharing)
 
